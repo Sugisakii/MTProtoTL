@@ -1,9 +1,8 @@
-const { AsyncStorage } = require('react-native');
-
+const AsyncStorage = require('@react-native-async-storage/async-storage');
 function getLocalStorage() {
   return {
-    set: AsyncStorage.setItem,
-    get: AsyncStorage.getItem
+    set: AsyncStorage.default.setItem,
+    get: AsyncStorage.default.getItem
   }
 }
 
