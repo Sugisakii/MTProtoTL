@@ -44,13 +44,13 @@
   "license": "GPL-3.0",
   "dependencies": {
     "aes-js": "3.1.2",
-    "big-integer": "1.6.48",
+    "big-integer": "1.6.51",
     "configstore": "5.0.1",
-    "debug": "4.3.1",
+    "debug": "4.3.3",
     "events": "3.3.0",
     "leemon": "6.2.0",
     "lodash.debounce": "4.0.8",
-    "pako": "2.0.3"
+    "pako": "2.1.0"
   },
   "devDependencies": {
     "jest": "26.6.3",
