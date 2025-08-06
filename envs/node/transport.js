@@ -1,4 +1,4 @@
-const net = require('net');
+const net = require('react-native-tcp-socket');
 const Obfuscated = require('../../src/transport/obfuscated');
 const baseDebug = require('../../src/utils/common/base-debug');
 
